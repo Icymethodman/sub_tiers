@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>IcySupporters</title>
+    <style>
+      /* Set background color of the top bar */
+      header {
+        background-color: #87CEFA;
+        padding: 20px;
+      }
+      /* Center the header text */
+      h1 {
+        text-align: center;
+        color: white;
+        margin: 0;
+      }
+      h2 {
+        text-align: center;
+        font-size: 45px;
+        color: rgb(127, 149, 247);
+        margin: 0;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+      }
+      /* Set background color of the body */
+      body {
+        background-color: #333;
+        color: rgb(19, 15, 15);
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        text-align: center;
+      }
+       /* Style the navigation links */
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+      }
+      nav li {
+        margin: 0 10px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav a.home {
+        color: #87CEFA;
+      }
+      nav a.tiers {
+        color: #F08080;
+      }
+      nav a.contact {
+        color: #ADD8E6;
+      }
+      .container {
+			display: flex;
+			justify-content: center;
+			align-items: top;
+			height: 100vh;
+		}
+		.tier {
+			width: 200px;
+			height: 400px;
+			margin: 15px;
+			background-color: #ccc;
+			display: grid;
+			justify-content: center;
+			align-items: end;
+			cursor: pointer;
+            border: 8px ridge rgb(0, 0, 0);border-radius: 1rem;
+		}
+    .option-box {
+        position: relative;
+        width: 300px;
+        height: 200px;
+        background-color: #da3232;
+        border: 1px solid #ccc;
+        box-shadow: 0px 0px 10px #888;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+      .popup {
+        display: none;
+        position: absolute;
+        z-index: 10;
+        width: 190px;
+        height: 200px;
+        background-color: #f1f1f1;
+        padding: 5px;
+        border: 3px solid #000000;
+        text-align: center;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+      }
+      .tier:hover .popup {
+        display: block;
+      }
+      .image-container {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-wrap: nowrap;
+  gap: 2px;
+}
+
+img {
+  width: 180px;
+  height: 120px;
+  object-fit: scale-down;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>IcySupporters</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="Untitled-1.html">Home</a></li>
+        <li><a href="IcySupporters.html">Tiers</a></li>
+        <li><a href="Media.html">Socials</a></li>
+      </ul>
+    </nav>
+    <main>
+      <p>This is my test website for future supporter page.</p>
+    </main>
+    <footer>
+      <p>&copy; 2023 IcyMethodMan's Website</p>
+    </footer>
+    <div class="container">
+		<div class="tier">
+      <h2>Frosty 10€</h2>
+      <p>This monthly subscription unlocks Frosty role in the discord server.</p>
+      <div class="image-container">
+        <img src="711.png" alt="Image 1">
+      </div>
+    <div class="popup">
+      <p>By clicking choose you'll be taken to the payment page.</p>
+      <a href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-13756178C2067161LMQWDSYI" target="_blank"><button>Choose</button></a>
+    </div>
+  </div>
+		<div class="tier">
+      <h2>Cooler 15€</h2>
+      <p>This monthly subscription unlocks Cooler role in the discord server.</p>
+      <div class="image-container">
+        <img src="pluckles.png" alt="Image 1">
+      </div>
+     <div class="popup">
+        <p>By clicking choose you'll be taken to the payment page.</p>
+        <a href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-6WM63281HK929505KMQWDWEI" target="_blank"><button>Choose</button></a>
+    </div>
+</div>
+		<div class="tier">
+      <h2>Chiller 20€</h2>
+      <p>This monthly subscription unlocks Chiller role in the discord server.</p>
+      <div class="image-container">
+        <img src="Tellu_emote.png" alt="Image 1">
+      </div>
+     <div class="popup">
+         <p>By clicking choose you'll be taken to the payment page.</p>
+         <a href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-0FU24663YJ728570XMQWDYXQ" target="_blank"><button>Choose</button></a>
+    </div>
+</div>
+<div class="tier">
+  <h2>Freezer 30€</h2>
+  <p>This monthly subscription unlocks Freezer role in the discord server.</p>
+  <div class="image-container">
+    <img src="Putato_emote.png" alt="Image 1">
+  </div>
+ <div class="popup">
+     <p>By clicking choose you'll be taken to the payment page.</p>
+     <a href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-1KX54826K0251422KMQWD3PA" target="_blank"><button>Choose</button></a>
+</div>
+</div>
+<div class="tier">
+  <h2>Icicle 50€</h2>
+  <p>This monthly subscription unlocks Icicle role in the discord server.</p>
+  <div class="image-container">
+    <img src="Cute_emote_icy.png" alt="Image 1">
+  </div>
+ <div class="popup">
+     <p>By clicking choose you'll be taken to the payment page.</p>
+     <a href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-6SK63349FH637754BMQWD5PI" target="_blank"><button>Choose</button></a>
+</div>
+</div>
+<div class="tier">
+  <h2>Royalty 100€</h2>
+  <p>This monthly subscription unlocks Royalty role in the discord server.</p>
+  <div class="image-container">
+    <img src="Aishah_emote.png" alt="Image 1">
+  </div>
+ <div class="popup">
+     <p>By clicking choose you'll be taken to the payment page.</p>
+     <a href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-58V45703614725456MQWEBKY" target="_blank"><button>Choose</button></a>
+</div>
+</div>
+<div class="tier">
+  <h2>Bruh 200€</h2>
+  <p>This monthly subscription unlocks Bruh role in the discord server.</p>
+  <div class="image-container">
+    <img src="3x.gif" alt="Image 1">
+  </div>
+ <div class="popup">
+     <p>By clicking choose you'll be taken to the payment page.</p>
+     <a href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-3XM865106J403194YMQWEHSA" target="_blank"><button>Choose</button></a>
+</div>
+</div>
+    <div class="container">
+    </div>
+  </body>
+</html>
+
